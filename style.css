@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Patrick+Hand&display=swap');
+
+
+body {
+    margin: 0;
+background: linear-gradient(90deg, rgba(193,210,231,1) 25%, rgba(220,255,251,1) 60%);
+    
+    display: block;
+    text-align: center;
+
+}
+
+#IMG1 {
+
+    margin-top: 100px;
+    width: 270px;
+}
+
+
+#IMG2 {
+    width: 270px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+   
+    cursor: pointer;
+float: right
+}
+
+.links {
+    float: right;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Redressed', cursive;
+    font-size: 20px;
+    color: deeppink;
+    display: inline;
+}
+
+.links:hover {
+    background-color: #ffaacc;
+}
+
+
+#mee{
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 400px;
+}
+
+
+#myfavbooks{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    background: rgb(193,210,231);
+    background: linear-gradient(90deg, rgba(193,210,231,1) 25%, rgba(220,255,251,1) 60%);
+}
+
+#img{
+    width: 500px;
+    margin-right: 250px;
+    border-style: solid;
+   
+}
+
+#img2{
+    width: 500px;
+    border-style: solid;
+}
+
+#myfavbooks2{
+    margin-left: 225px;
+    background: rgb(193,210,231);
+background: linear-gradient(90deg, rgba(193,210,231,1) 25%, rgba(220,255,251,1) 60%);
+   
+}
+#aboutme{
+    background: rgb(204, 170, 255);
+    background: linear-gradient(90deg, rgba(204, 170, 255, 1) 0%, rgba(255, 204, 170, 1) 74%);
+}
+
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h3{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h1{
+    font-family: 'Boogaloo', cursive;
+    color: deeppink;
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+}
+
+#aboutme{
+    background: linear-gradient(90deg, rgba(204, 221, 255, 1) 25%, rgba(255, 204, 238, 1) 60%);
+}
+
+#myhobbies{
+        
+background: rgb(208,153,226);
+background: linear-gradient(90deg, rgba(208,153,226,1) 25%, rgba(204,220,253,1) 60%);
+}
+
+h2{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#Galileo{
+    border-style: solid;
+    width: 300px;
+    border-color: black;
+    transition: transform 2s;
+}
+
+#Galileo:hover{
+   transform: scale(1.03);
+    
+}
+
+#moreabgali{
+    font-weight: bold;
+}
+
+.line {
+    height: 6px;
+    background-color: deeppink;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.line1{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
